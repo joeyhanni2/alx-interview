@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Write a script that reads stdin line by line 
+"""Write a script that reads stdin line by line
    and computes metrics:
 """
 
@@ -10,8 +10,8 @@ import sys
 status_codes_dict = {'200': 0, '301': 0, '400': 0, '401': 0, '403': 0,
                      '404': 0, '405': 0, '500': 0}
 
-total_size = 0 # total size of the file
-count = 0 # count of lines read
+total_size = 0
+count = 0
 
 try:
     for line in sys.stdin:
